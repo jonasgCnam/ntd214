@@ -1,0 +1,113 @@
+/* CSS NTD214 */
+
+/* Body */
+
+	body{
+		background-color: darkgrey;
+		color: white;
+		font-family: 'Trebuchet MS', Arial, sans-serif;
+	}
+
+/* Bannière haute */
+
+	header{
+		margin-top: 100px;
+		padding-left: 50px;
+		padding-right: 100px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		background-color: black;
+		color: #c9c188;
+		width: 80%;
+	}
+		
+	h1{
+		font-size: 2em;
+		font-weight: normal;
+		text-align: center;
+		color: #EDDF0C
+	}
+
+	.logo{
+		float: left;
+		height: 250px; 
+		width: 250px;
+	}
+
+/* Menu navigation liste */
+
+	nav ul{
+		list-style-type: none;
+		display: flex;
+		margin-top: 100px;
+		padding-left: 100px;
+		width: 60%;
+	}
+
+	nav li{
+		margin-right: 50px;
+		margin-bottom: 20px;
+	}
+
+	nav a{
+		font-size: 1.5em;
+		color: #000000;
+		text-decoration: none;
+	}
+
+	nav a:hover{
+		color: #5E364C;
+		border: 1px solid;
+	}
+
+
+/* Organisation sections */
+
+	h2{
+		font-size: 1.5em;
+		font-weight: normal;
+		color: #EDDF0C
+	}
+
+	section{
+		margin-top: 50px;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		background-color: black;
+		width: 80%;
+		border-radius: 30px;
+	}
+
+	section p{
+		font-size: 0.9em;
+		text-align: justify;
+	}
+
+	a {
+		font-size: 1.2em;
+		color: grey;
+	}
+
+	a:hover{
+		color: #5E364C;
+		border-bottom: 1px solid;
+	}
+
+	img{
+		height: auto; 
+		width: 30%;
+	}
+
+
+/* Bas de page */
+
+	footer p{
+		font-size: 0.9em;
+		font-family: 'Trebuchet MS', Arial, sans-serif;
+		text-align: center;
+		color: black;
+	}
+
+/* FIN */
